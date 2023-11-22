@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .dashboard {
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+  }
+  
+  .top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    padding: 20px;
+    background-color: #6a5acd;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .bell-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: white;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+  }
+  
+  .profile-name {
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 60px;
+  }
+  
+  .tab-icon {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .tab-text {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
+  .content {
+    width: 600px;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .greeting {
+    color: #6a5acd;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 200px;
+    background-image: url('chart-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .journey {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .journey-icon {
+    width: 64px;
+    height: 64px;
+  }
+  
+  .heating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .gauge {
+    width: 200px;
+    height: 200px;
+    background-image: url('gauge.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .year {
+    color: #6a5acd;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
